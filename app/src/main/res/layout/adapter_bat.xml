@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_name"
+        tools:text="Name goes here"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:gravity="center"
+
+        android:layout_margin="4dp"
+        android:id="@+id/txt_address"
+        tools:text="Address goes here"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_margin="4dp"
+        android:gravity="center"
+
+        android:id="@+id/txt_country"
+        tools:text="Country goes here"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
